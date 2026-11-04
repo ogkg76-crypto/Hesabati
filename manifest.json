@@ -1,0 +1,22 @@
+{
+  "name": "HESABATI ERP — نظام الموارد البشرية والخزائن",
+  "short_name": "HESABATI",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "dir": "rtl",
+  "lang": "ar",
+  "background_color": "#0b1220",
+  "theme_color": "#1e3a8a",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

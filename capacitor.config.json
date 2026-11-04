@@ -1,0 +1,8 @@
+{
+  "appId": "com.hesabati.erp",
+  "appName": "HESABATI ERP",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": false
+  }
+}
