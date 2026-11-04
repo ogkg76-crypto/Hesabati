@@ -41,6 +41,12 @@ jobs:
             --exclude='README.md' \
             ./ www/
 
+      - name: Verify Capacitor Config
+        run: |
+          cat capacitor.config.json
+          node -e "const c = require('./capacitor.config.json'); if (!c.appId) throw new Error('Missing appId'); if (!c.appName) throw new Error('Missing appName'); console.log('App ID:', c.appId); console.log('Web Directory:', c.webDir);"
+          test -f www/index.html
+
       - name: Add Android
         run: npx cap add android
 
