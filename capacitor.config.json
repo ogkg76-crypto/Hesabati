@@ -1,6 +1,6 @@
 {
   "appId": "com.hesabati.erp",
   "appName": "HESABATI",
-  "webDir": "www",
+  "webDir": ".",
   
 }
